@@ -45,7 +45,7 @@ class BandController extends Controller
 
   public function getBands(){
     return [['id' => '5', 'name' => 'Coldplay', 'gender' => 'Rock']
-           ,['id' => '2', 'name' => 'N-Sync', 'gender' => 'Pop']
+           ,['id' => '2', 'name' => 'Michael Jackson', 'gender' => 'Pop']
            ,['id' => '3', 'name' => 'BTS', 'gender' => 'K-Pop']
            ,['id' => '4', 'name' => 'Calypso', 'gender' => 'Forró']
            ,['id' => '1', 'name' => 'The Beatles', 'gender' => 'Rock']];
